@@ -1,0 +1,506 @@
+﻿<db>
+  <tables>
+    <table name="export">
+      <row value="подписа" subscribe="true" />
+      <row value="подпиш" subscribe="true" />
+      <row value="рейс" subscribe="unsure" flight="true" />
+      <row value="полет" subscribe="unsure" flight="true" />
+      
+      <row value="мо" />
+      <row value="о" />
+
+      <row value="поддержк" start_support="true" />
+      <row value="связ" start_support="true" />
+      
+      <row value="конецразговор" stop_support="true" />
+
+
+      <row base="want" value="хоч" />
+      <row base="want" value="хотел" />
+      <row base="want" value="жела" />
+
+      <row value="нужн" />
+      <row value="помощ" start_support="true" />
+
+      <row value="талон" ticket="true" />
+      <row value="билет" ticket="true" flight="true" />
+      
+      <row value="куд" />
+      <row value="идт" />
+
+      <row value="мен" />
+      <row value="называ" />
+      <row value="зов" />
+
+      <row value="из" base="from" />
+      <row value="от" base="from" />
+      <row value="с" base="from" />
+      <row value="в" base="to" />
+      <row value="до" base="to" />
+
+      <row value="можн" base="can" />
+      <row value="мог" base="can" />
+
+      <!--привет здравств здравств ку хаюха прив-->
+
+      <row value="привет" base="hi" />
+      <row value="здравств" base="hi" />
+      <row value="ку" base="hi" />
+      <row value="прив" base="hi" />
+      <row value="хаюха" base="hi" />
+      <row value="здаров" base="hi" />
+
+      <row value="пронест" base="give" />
+      <row value="пронезт" base="give" />
+      <row value="взят" base="give" />
+      <row value="брат" base="give" />
+
+      <row value="дешев" cost="low" />
+      <row value="лоукост" cost="low" />
+      <row value="бичарск" cost="low" />
+      <row value="бизнес" cost="high" />
+      <row value="бизнесс" cost="high" />
+      <row value="вип" cost="high" />
+      <row value="царск" cost="high" />
+      <row value="дорог" cost="high" />
+
+      <row value="водк" bagage="false" eat="true" />
+      <row value="наркотик" bagage="false" />
+      <row value="шлюх" bagage="false" />
+      <row value="мертв" bagage="false" />
+
+      <row value="вод" bagage="true" eat="true"/>
+      <row value="шоколад" bagage="true" eat="true" />
+      <row value="подушк" bagage="true" />
+      
+      <row value="телефон" bagage="true" device="mobile" />
+
+      <row value="москв" city="msk" />
+      <row value="перм" city="prm" />
+      <row value="питер" city="spb" />
+
+      <row value="не" yes="no" />
+      <row value="нет" yes="no" />
+      <row value="да" yes="yes" />
+      <row value="разумеет" yes="yes" />
+      <row value="конечн" yes="yes" />
+      
+      <!--ил влад макс ива-->
+      <row value="ил" name="Илья" />
+      <row value="влад" name="Владислав" />
+      <row value="владисла" name="Владислав" />
+      <row value="макс" name="Максим" />
+      <row value="ива" name="Иван" />
+      <row value="ван" name="Иван" />
+
+      <row value="куп" buy="true" />
+      <row value="найт" search="true" />
+      <row value="найд" search="true" />
+      <row value="архипиздр" simple_response="Фу, как грубо!"/>
+<row value="бзден" simple_response="Фу, как грубо!"/>
+<row value="бздет" simple_response="Фу, как грубо!"/>
+<row value="бздех" simple_response="Фу, как грубо!"/>
+<row value="бзднут" simple_response="Фу, как грубо!"/>
+<row value="бздун" simple_response="Фу, как грубо!"/>
+<row value="бздун" simple_response="Фу, как грубо!"/>
+<row value="бздюх" simple_response="Фу, как грубо!"/>
+<row value="бикс" simple_response="Фу, как грубо!"/>
+<row value="блежник" simple_response="Фу, как грубо!"/>
+<row value="блудилищ" simple_response="Фу, как грубо!"/>
+<row value="бляд" simple_response="Фу, как грубо!"/>
+<row value="бляб" simple_response="Фу, как грубо!"/>
+<row value="блябуд" simple_response="Фу, как грубо!"/>
+<row value="блядун" simple_response="Фу, как грубо!"/>
+<row value="блядун" simple_response="Фу, как грубо!"/>
+<row value="бляд" simple_response="Фу, как грубо!"/>
+<row value="блядюг" simple_response="Фу, как грубо!"/>
+<row value="взьебк" simple_response="Фу, как грубо!"/>
+<row value="взьебыва" simple_response="Фу, как грубо!"/>
+<row value="выблядок" simple_response="Фу, как грубо!"/>
+<row value="выблядыш" simple_response="Фу, как грубо!"/>
+<row value="выеба" simple_response="Фу, как грубо!"/>
+<row value="выпердет" simple_response="Фу, как грубо!"/>
+<row value="высра" simple_response="Фу, как грубо!"/>
+<row value="высса" simple_response="Фу, как грубо!"/>
+<row value="говенк" simple_response="Фу, как грубо!"/>
+<row value="говен" simple_response="Фу, как грубо!"/>
+<row value="говешк" simple_response="Фу, как грубо!"/>
+<row value="говназ" simple_response="Фу, как грубо!"/>
+<row value="говнец" simple_response="Фу, как грубо!"/>
+<row value="говноед" simple_response="Фу, как грубо!"/>
+<row value="говночист" simple_response="Фу, как грубо!"/>
+<row value="говнюк" simple_response="Фу, как грубо!"/>
+<row value="говнюх" simple_response="Фу, как грубо!"/>
+<row value="говнядин" simple_response="Фу, как грубо!"/>
+<row value="говняк" simple_response="Фу, как грубо!"/>
+<row value="говнян" simple_response="Фу, как грубо!"/>
+<row value="говня" simple_response="Фу, как грубо!"/>
+<row value="гондон" simple_response="Фу, как грубо!"/>
+<row value="дерм" simple_response="Фу, как грубо!"/>
+<row value="долбоеб" simple_response="Фу, как грубо!"/>
+<row value="дрисн" simple_response="Фу, как грубо!"/>
+<row value="дрист" simple_response="Фу, как грубо!"/>
+<row value="дриста" simple_response="Фу, как грубо!"/>
+<row value="дристанут" simple_response="Фу, как грубо!"/>
+<row value="дристун" simple_response="Фу, как грубо!"/>
+<row value="дристух" simple_response="Фу, как грубо!"/>
+<row value="дроч" simple_response="Фу, как грубо!"/>
+<row value="дроч" simple_response="Фу, как грубо!"/>
+<row value="дрочилк" simple_response="Фу, как грубо!"/>
+<row value="дроч" simple_response="Фу, как грубо!"/>
+<row value="дрочк" simple_response="Фу, как грубо!"/>
+<row value="еба" simple_response="Фу, как грубо!"/>
+<row value="ебальник" simple_response="Фу, как грубо!"/>
+<row value="ебанут" simple_response="Фу, как грубо!"/>
+<row value="ебан" simple_response="Фу, как грубо!"/>
+<row value="ебар" simple_response="Фу, как грубо!"/>
+<row value="ебатор" simple_response="Фу, как грубо!"/>
+<row value="еба" simple_response="Фу, как грубо!"/>
+<row value="еба" simple_response="Фу, как грубо!"/>
+<row value="ебец" simple_response="Фу, как грубо!"/>
+<row value="еблив" simple_response="Фу, как грубо!"/>
+<row value="ебл" simple_response="Фу, как грубо!"/>
+<row value="ебнут" simple_response="Фу, как грубо!"/>
+<row value="ебнут" simple_response="Фу, как грубо!"/>
+<row value="ебн" simple_response="Фу, как грубо!"/>
+<row value="ебун" simple_response="Фу, как грубо!"/>
+<row value="елд" simple_response="Фу, как грубо!"/>
+<row value="елдак" simple_response="Фу, как грубо!"/>
+<row value="елдач" simple_response="Фу, как грубо!"/>
+<row value="заговня" simple_response="Фу, как грубо!"/>
+<row value="задриста" simple_response="Фу, как грубо!"/>
+<row value="задрок" simple_response="Фу, как грубо!"/>
+<row value="заеб" simple_response="Фу, как грубо!"/>
+<row value="заебанец" simple_response="Фу, как грубо!"/>
+<row value="заеба" simple_response="Фу, как грубо!"/>
+<row value="заеба" simple_response="Фу, как грубо!"/>
+<row value="заебыва" simple_response="Фу, как грубо!"/>
+<row value="залуп" simple_response="Фу, как грубо!"/>
+<row value="залупа" simple_response="Фу, как грубо!"/>
+<row value="залуп" simple_response="Фу, как грубо!"/>
+<row value="залуп" simple_response="Фу, как грубо!"/>
+<row value="засерун" simple_response="Фу, как грубо!"/>
+<row value="засер" simple_response="Фу, как грубо!"/>
+<row value="засера" simple_response="Фу, как грубо!"/>
+<row value="засира" simple_response="Фу, как грубо!"/>
+<row value="засранец" simple_response="Фу, как грубо!"/>
+<row value="засрун" simple_response="Фу, как грубо!"/>
+<row value="захуяч" simple_response="Фу, как грубо!"/>
+<row value="злоебуч" simple_response="Фу, как грубо!"/>
+<row value="изговня" simple_response="Фу, как грубо!"/>
+<row value="изговня" simple_response="Фу, как грубо!"/>
+<row value="кляпыж" simple_response="Фу, как грубо!"/>
+<row value="курв" simple_response="Фу, как грубо!"/>
+<row value="курвенок" simple_response="Фу, как грубо!"/>
+<row value="курвин" simple_response="Фу, как грубо!"/>
+<row value="курвяжник" simple_response="Фу, как грубо!"/>
+<row value="курвяжниц" simple_response="Фу, как грубо!"/>
+<row value="курвяжн" simple_response="Фу, как грубо!"/>
+<row value="манд" simple_response="Фу, как грубо!"/>
+<row value="мандавошк" simple_response="Фу, как грубо!"/>
+<row value="манд" simple_response="Фу, как грубо!"/>
+<row value="мандет" simple_response="Фу, как грубо!"/>
+<row value="мандищ" simple_response="Фу, как грубо!"/>
+<row value="мандюк" simple_response="Фу, как грубо!"/>
+<row value="минет" simple_response="Фу, как грубо!"/>
+<row value="минетчик" simple_response="Фу, как грубо!"/>
+<row value="минетчиц" simple_response="Фу, как грубо!"/>
+<row value="мокрохвостк" simple_response="Фу, как грубо!"/>
+<row value="мокрощелк" simple_response="Фу, как грубо!"/>
+<row value="мудак" simple_response="Фу, как грубо!"/>
+<row value="муд" simple_response="Фу, как грубо!"/>
+<row value="мудет" simple_response="Фу, как грубо!"/>
+<row value="муд" simple_response="Фу, как грубо!"/>
+<row value="мудист" simple_response="Фу, как грубо!"/>
+<row value="мудн" simple_response="Фу, как грубо!"/>
+<row value="мудоеб" simple_response="Фу, как грубо!"/>
+<row value="мудозвон" simple_response="Фу, как грубо!"/>
+<row value="муйн" simple_response="Фу, как грубо!"/>
+<row value="набздет" simple_response="Фу, как грубо!"/>
+<row value="наговня" simple_response="Фу, как грубо!"/>
+<row value="надриста" simple_response="Фу, как грубо!"/>
+<row value="надроч" simple_response="Фу, как грубо!"/>
+<row value="наеба" simple_response="Фу, как грубо!"/>
+<row value="наебнут" simple_response="Фу, как грубо!"/>
+<row value="наебыва" simple_response="Фу, как грубо!"/>
+<row value="насса" simple_response="Фу, как грубо!"/>
+<row value="нахеза" simple_response="Фу, как грубо!"/>
+<row value="нахуйник" simple_response="Фу, как грубо!"/>
+<row value="насца" simple_response="Фу, как грубо!"/>
+<row value="обдриста" simple_response="Фу, как грубо!"/>
+<row value="обдриста" simple_response="Фу, как грубо!"/>
+<row value="обосранец" simple_response="Фу, как грубо!"/>
+<row value="обосра" simple_response="Фу, как грубо!"/>
+<row value="обосца" simple_response="Фу, как грубо!"/>
+<row value="обосца" simple_response="Фу, как грубо!"/>
+<row value="обсира" simple_response="Фу, как грубо!"/>
+<row value="опизд" simple_response="Фу, как грубо!"/>
+<row value="отпиздяч" simple_response="Фу, как грубо!"/>
+<row value="отпорот" simple_response="Фу, как грубо!"/>
+<row value="отъет" simple_response="Фу, как грубо!"/>
+<row value="охуевательск" simple_response="Фу, как грубо!"/>
+<row value="охуева" simple_response="Фу, как грубо!"/>
+<row value="охуева" simple_response="Фу, как грубо!"/>
+<row value="охует" simple_response="Фу, как грубо!"/>
+<row value="охуительн" simple_response="Фу, как грубо!"/>
+<row value="охуячива" simple_response="Фу, как грубо!"/>
+<row value="охуяч" simple_response="Фу, как грубо!"/>
+<row value="педрик" simple_response="Фу, как грубо!"/>
+<row value="пердеж" simple_response="Фу, как грубо!"/>
+<row value="перден" simple_response="Фу, как грубо!"/>
+<row value="пердет" simple_response="Фу, как грубо!"/>
+<row value="пердильник" simple_response="Фу, как грубо!"/>
+<row value="перднут" simple_response="Фу, как грубо!"/>
+<row value="пердун" simple_response="Фу, как грубо!"/>
+<row value="пердунец" simple_response="Фу, как грубо!"/>
+<row value="пердунин" simple_response="Фу, как грубо!"/>
+<row value="пердун" simple_response="Фу, как грубо!"/>
+<row value="пердух" simple_response="Фу, как грубо!"/>
+<row value="перд" simple_response="Фу, как грубо!"/>
+<row value="передок" simple_response="Фу, как грубо!"/>
+<row value="пернут" simple_response="Фу, как грубо!"/>
+<row value="пидор" simple_response="Фу, как грубо!"/>
+<row value="пизд" simple_response="Фу, как грубо!"/>
+<row value="пизданут" simple_response="Фу, как грубо!"/>
+<row value="пизденк" simple_response="Фу, как грубо!"/>
+<row value="пиздет" simple_response="Фу, как грубо!"/>
+<row value="пизд" simple_response="Фу, как грубо!"/>
+<row value="пиздищ" simple_response="Фу, как грубо!"/>
+<row value="пиздобрат" simple_response="Фу, как грубо!"/>
+<row value="пиздоват" simple_response="Фу, как грубо!"/>
+<row value="пиздорванец" simple_response="Фу, как грубо!"/>
+<row value="пиздорванк" simple_response="Фу, как грубо!"/>
+<row value="пиздострадател" simple_response="Фу, как грубо!"/>
+<row value="пиздун" simple_response="Фу, как грубо!"/>
+<row value="пиздюг" simple_response="Фу, как грубо!"/>
+<row value="пиздюк" simple_response="Фу, как грубо!"/>
+<row value="пиздяч" simple_response="Фу, как грубо!"/>
+<row value="пися" simple_response="Фу, как грубо!"/>
+<row value="питишк" simple_response="Фу, как грубо!"/>
+<row value="плех" simple_response="Фу, как грубо!"/>
+<row value="подговня" simple_response="Фу, как грубо!"/>
+<row value="подъебнут" simple_response="Фу, как грубо!"/>
+<row value="поеба" simple_response="Фу, как грубо!"/>
+<row value="поет" simple_response="Фу, как грубо!"/>
+<row value="попыса" simple_response="Фу, как грубо!"/>
+<row value="посра" simple_response="Фу, как грубо!"/>
+<row value="постав" simple_response="Фу, как грубо!"/>
+<row value="поцоват" simple_response="Фу, как грубо!"/>
+<row value="презерват" simple_response="Фу, как грубо!"/>
+<row value="пробляд" simple_response="Фу, как грубо!"/>
+<row value="проеба" simple_response="Фу, как грубо!"/>
+<row value="промандет" simple_response="Фу, как грубо!"/>
+<row value="промудет" simple_response="Фу, как грубо!"/>
+<row value="пропиздет" simple_response="Фу, как грубо!"/>
+<row value="пропиздяч" simple_response="Фу, как грубо!"/>
+<row value="пыса" simple_response="Фу, как грубо!"/>
+<row value="разъеб" simple_response="Фу, как грубо!"/>
+<row value="разъеба" simple_response="Фу, как грубо!"/>
+<row value="распизда" simple_response="Фу, как грубо!"/>
+<row value="распиздет" simple_response="Фу, как грубо!"/>
+<row value="распиздя" simple_response="Фу, как грубо!"/>
+<row value="распроет" simple_response="Фу, как грубо!"/>
+<row value="растык" simple_response="Фу, как грубо!"/>
+<row value="сговня" simple_response="Фу, как грубо!"/>
+<row value="секел" simple_response="Фу, как грубо!"/>
+<row value="серун" simple_response="Фу, как грубо!"/>
+<row value="серьк" simple_response="Фу, как грубо!"/>
+<row value="сик" simple_response="Фу, как грубо!"/>
+<row value="сика" simple_response="Фу, как грубо!"/>
+<row value="сикел" simple_response="Фу, как грубо!"/>
+<row value="сира" simple_response="Фу, как грубо!"/>
+<row value="сирыва" simple_response="Фу, как грубо!"/>
+<row value="скурв" simple_response="Фу, как грубо!"/>
+<row value="скурех" simple_response="Фу, как грубо!"/>
+<row value="скуре" simple_response="Фу, как грубо!"/>
+<row value="скуряг" simple_response="Фу, как грубо!"/>
+<row value="скуряжнича" simple_response="Фу, как грубо!"/>
+<row value="спизд" simple_response="Фу, как грубо!"/>
+<row value="срак" simple_response="Фу, как грубо!"/>
+<row value="сран" simple_response="Фу, как грубо!"/>
+<row value="сран" simple_response="Фу, как грубо!"/>
+<row value="срат" simple_response="Фу, как грубо!"/>
+<row value="срун" simple_response="Фу, как грубо!"/>
+<row value="ссак" simple_response="Фу, как грубо!"/>
+<row value="ссак" simple_response="Фу, как грубо!"/>
+<row value="ссат" simple_response="Фу, как грубо!"/>
+<row value="старпер" simple_response="Фу, как грубо!"/>
+<row value="струк" simple_response="Фу, как грубо!"/>
+<row value="суходрочк" simple_response="Фу, как грубо!"/>
+<row value="сцавин" simple_response="Фу, как грубо!"/>
+<row value="сцак" simple_response="Фу, как грубо!"/>
+<row value="сцак" simple_response="Фу, как грубо!"/>
+<row value="сцан" simple_response="Фу, как грубо!"/>
+<row value="сцат" simple_response="Фу, как грубо!"/>
+<row value="сцих" simple_response="Фу, как грубо!"/>
+<row value="сцул" simple_response="Фу, как грубо!"/>
+<row value="сцых" simple_response="Фу, как грубо!"/>
+<row value="сыкун" simple_response="Фу, как грубо!"/>
+<row value="титечк" simple_response="Фу, как грубо!"/>
+<row value="титечн" simple_response="Фу, как грубо!"/>
+<row value="титк" simple_response="Фу, как грубо!"/>
+<row value="титочк" simple_response="Фу, как грубо!"/>
+<row value="титьк" simple_response="Фу, как грубо!"/>
+<row value="трипер" simple_response="Фу, как грубо!"/>
+<row value="триппер" simple_response="Фу, как грубо!"/>
+<row value="ует" simple_response="Фу, как грубо!"/>
+<row value="усра" simple_response="Фу, как грубо!"/>
+<row value="усца" simple_response="Фу, как грубо!"/>
+<row value="фик" simple_response="Фу, как грубо!"/>
+<row value="фу" simple_response="Фу, как грубо!"/>
+<row value="хеза" simple_response="Фу, как грубо!"/>
+<row value="хер" simple_response="Фу, как грубо!"/>
+<row value="херн" simple_response="Фу, как грубо!"/>
+<row value="херовин" simple_response="Фу, как грубо!"/>
+<row value="херов" simple_response="Фу, как грубо!"/>
+<row value="хитрожоп" simple_response="Фу, как грубо!"/>
+<row value="хлюх" simple_response="Фу, как грубо!"/>
+<row value="хуевин" simple_response="Фу, как грубо!"/>
+<row value="хуев" simple_response="Фу, как грубо!"/>
+<row value="хуек" simple_response="Фу, как грубо!"/>
+<row value="хуепромышленник" simple_response="Фу, как грубо!"/>
+<row value="хуерик" simple_response="Фу, как грубо!"/>
+<row value="хуесос" simple_response="Фу, как грубо!"/>
+<row value="хуищ" simple_response="Фу, как грубо!"/>
+<row value="ху" simple_response="Фу, как грубо!"/>
+<row value="хуйн" simple_response="Фу, как грубо!"/>
+<row value="хуйрик" simple_response="Фу, как грубо!"/>
+<row value="хуяка" simple_response="Фу, как грубо!"/>
+<row value="хуякнут" simple_response="Фу, как грубо!"/>
+<row value="целк" simple_response="Фу, как грубо!"/>
+<row value="шлюх" simple_response="Фу, как грубо!"/>
+    </table>
+  </tables>
+  
+  <processing>
+    <register name="lower-case" /> <!-- value = value.tolower() -->
+    <register name="integer-export" /> <!--if (value is int) integer = int(value)-->
+    <register name="ticket-export" />
+    <register name="table-export" table="export" />
+  </processing>
+  
+  <mapping>
+    <map><target h="lower-case" /></map>
+    <map><target h="integer-export" /></map>
+    <map><target h="ticket-export" /></map>
+    <map><target h="table-export" /></map>
+    <map>
+      <seq t-city="spb">
+        <target value="санкт" />
+        <target value="петербург" />
+      </seq>
+    </map>
+    <map>
+      <seq>
+        <target yes="no" />
+        <target value="дорог" cost="high" t-cost="low" />
+      </seq>
+    </map>
+    <map>
+      <seq>
+        <target city="*" t-cityFrom="true"/>
+        <target s-min="0" s-max="3" />
+        <target city="*" t-cityTo="true"/>
+      </seq>
+      <seq>
+        <target base="from" />
+        <target city="*" t-cityFrom="true"/>
+      </seq>
+      <seq>
+        <target base="to" />
+        <target city="*" t-cityTo="true"/>
+      </seq>
+    </map>
+    <map>
+      <seq t-searchTicket="true">
+        <target buy="true" />
+        <target value="*" s-min="0" s-max="10" />
+        <target flight="true" />
+      </seq>
+      <seq t-searchTicket="true">
+        <target ticket="true" />
+        <target value="*" s-min="0" s-max="10" />
+        <target city="*" />
+      </seq>
+      <seq t-searchTicket="true">
+        <target want="true" />
+        <target value="*" s-min="0" s-max="10" />
+        <target city="*" />
+      </seq>
+      <seq t-searchTicket="true">
+        <target flight="true" />
+        <target value="*" s-min="0" s-max="10" />
+        <target city="*" />
+      </seq>
+      <seq t-searchTicket="true">
+        <target search="true" />
+        <target value="*" s-min="0" s-max="10" />
+        <target flight="true" />
+      </seq>
+    </map>
+    <map>
+      <target base="hi" t-simple_response="Привет!:) Есть какие-то вопросы?" />
+        <seq>
+            <target value="как" t-simple_response="Нормально все :)"/>
+            <target value="дел"/>
+
+        </seq>
+        <seq>
+            <target value="ест" />
+            <target value="два" t-simple_response="Возьму пики точеные..."/>
+            <target value="стул"/>
+        </seq>
+        <seq>
+            <target value="мор" t-simple_response="В каждом море есть островок, в каждом лесу полянка"/>
+            <target value="говн"/>
+        </seq>
+    </map>
+    <map>
+        <seq>
+          <target subscribe="*" t-subscribe="true" />
+          <target s-min="0" s-max="10" />
+          <target value="мо" s-min="0"/>
+          <target value="о" s-min="0"/>
+          <target value="рейс"/>
+        </seq>
+    </map>
+
+    <map>
+        <seq t-support="true">
+            <target value="нужн"/>
+            <target value="помощ"/>
+        </seq>
+        <seq t-where="true">
+            <target value="куд"/>
+            <target value="идт"/>
+        </seq>
+    </map>
+
+    <map>
+      <seq t-callme="true">
+        <target value="мен" />
+        <target value="называ"/>
+      </seq>
+      <seq t-callme="true">
+        <target value="называ"/>
+        <target value="мен" />
+      </seq>
+      <seq t-callme="true">
+          <target value="зов"/>
+          <target value="мен" />
+      </seq>
+    </map>
+
+    <map>
+      <seq>
+        <target base="can" />
+        <target s-min="0" s-max="100" s-handle="false" />
+        <target base="give" />
+        <seq s-min="1" s-max="100" s-maximize="true" >
+          <target s-min="0" s-max="100" s-handle="false" />
+          <target bagage="*" t-bagageCheck="true" />
+        </seq>
+      </seq>
+    </map>
+  </mapping>
+</db>
