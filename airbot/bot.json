@@ -1,5 +1,5 @@
-﻿{
-  "TelegramToken": "394589310:AAHOQu3PV9HcmqFyRLhT1dIORpiSBgX_vgA",
+{
+  "TelegramToken": "",
   "LangBase": "machineLang.xml",
   "GeneralApi": "http://s7.gvg.pw:4321",
   "TextApi": "http://s7.gvg.pw:5000"
